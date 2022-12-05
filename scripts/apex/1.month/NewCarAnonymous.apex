@@ -1,0 +1,11 @@
+NewCar C = new NewCar();
+C.starCar('SUV', 'Tiguan');
+C.Accelerate(80);
+C.checkSpeed();
+C.Brake(55);
+C.checkSpeed();
+C.Accelerate(10);
+C.checkSpeed();
+C.Brake(40);
+C.checkSpeed();
+C.stopCar();

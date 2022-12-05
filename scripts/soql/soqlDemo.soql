@@ -1,0 +1,14 @@
+select id, name from account Order by name desc limit 5
+
+SELECT Name, Id, Phone, accountnumber FROM account where phone != null and accountnumber != null
+
+SELECT Name, Id, Phone, accountnumber, shippingCity FROM account where phone != null and accountnumber != null
+
+SELECT Name, Id, Phone, website, accountnumber, shippingCity FROM account where (phone != null or website != null )and accountnumber != null
+
+SELECT Name, Id, Priority__c, Description__c, Status__c FROM Salesforce_Ticket__c 
+
+SELECT Name, Id, Priority__c, Description__c, Status__c FROM Salesforce_Ticket__c where status__c != '' and priority__c in ('high', 'low', '')
+
+SELECT Name, Id, Project_Name__c, Status__c, Description__c FROM Salesforce_Project__c where status__c != 'new'
+
