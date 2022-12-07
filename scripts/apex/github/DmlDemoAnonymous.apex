@@ -1,3 +1,6 @@
+DML2_Assgn.createBulkContacts();
+DML2_Assgn.searchForContact('Johanson');
+
 DML2_Assgn.insert_dml();
 DML2_Assgn.dml_update();
 
