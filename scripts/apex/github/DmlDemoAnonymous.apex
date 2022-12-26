@@ -16,3 +16,6 @@ DmlDemo.dmlInsertDemo_5();
 DmlDemo.dmlInsertMultiple_right();
 DmlDemo.dmlInsertMultiple_right2();
 DmlDemo.dmlUpdateMultiple_right1();
+//list<account> delAcc = [select id from account where name like '%B%'];
+delete [select id from account where createddate = THIS_WEEK];
+
